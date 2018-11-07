@@ -5,7 +5,7 @@
 @time: 18-10-8 下午10:36
 @version: v1.0 
 """
-from timer import timer
+from Python.timer import timer
 
 fibs = [0, 1]
 

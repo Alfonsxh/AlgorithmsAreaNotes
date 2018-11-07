@@ -5,7 +5,6 @@
 @time: 18-10-8 下午10:42
 @version: v1.0 
 """
-from timer import timer
 import time
 
 
