@@ -1,0 +1,10 @@
+//
+// Created by alfons on 18-11-8.
+//
+
+#ifndef ALGORITHMSTEST_DELETEREPEATELEM_H
+#define ALGORITHMSTEST_DELETEREPEATELEM_H
+
+void DelRepeatElems();
+
+#endif //ALGORITHMSTEST_DELETEREPEATELEM_H
