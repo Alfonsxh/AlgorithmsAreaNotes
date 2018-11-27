@@ -29,9 +29,10 @@ include_directories(ElementNotRepeat ${INCLUDE_DIR})
 
 # 添加子文件夹，会包含子文件夹目录下的CMakeLists.txt文件
 add_subdirectory(ElementNotRepeat)
+add_subdirectory(RBTree)
 
 # 添加可执行程序
-add_executable(Test main.cpp)
+add_executable(AlgorithmsTest main.cpp)
 
 # 添加动态库依赖
-target_link_libraries(Test NotRepeat)
+target_link_libraries(AlgorithmsTest NotRepeat)
